@@ -11,19 +11,19 @@
 }
 .inline
 {
+    position: absolute;
+    margin-left: 40%;
     color: black;
     font-family: 'Playfair Display', serif;
     background-color: white;
     z-index: 1;
     padding: 0.5%; 
 }
-.position
+
+
+.box1 
 {
-    
-}
-#box1 
-{
-    position: absolute;
+    position: absolute; 
     height: 30%;
     width: 99%;
     background-color: black;
@@ -31,7 +31,7 @@
     z-index: 0;
     text-align: center;
 }
-#box1 h2
+.box1 h2
 {
     font-family: 'Playfair Display', serif;
     font-size: 300%;
@@ -39,7 +39,7 @@
     top:20%;
     left: 55%;
 }
-#line
+.Vline
 {
     position: absolute;
     height: 200%;
@@ -49,7 +49,7 @@
     z-index: 1;
 
 }
-#sidebox
+.sidebox
 {
     position: absolute;
     height: 100%;
@@ -67,45 +67,42 @@ img
     border-radius: 50%;
     margin-top: 40px;
 }
-#info
+.info
 {
     position: absolute;
     top: 32%;
     color: white;
     width: 100%;
 }
-#info li
+.info li
 {
     list-style: none;
     font-size:32px;
     font-family: 'Quicksand', sans-serif;
 }
-#info i
+.info i
 {
     padding-right: 10%;
     font-size:32px;
 }
-#profile h1
+.profile .inline
 {
-    position: absolute;
-    margin-left: 40%;
     margin-top: 19.5%;
 }
-#profile p
+.profile p
 {
     
     margin-left: 42%;
     margin-top: 21.5%;
     padding-top: 2%;
 }
-#education h1
+.education h1
 {
-    position: absolute;
-    margin-left: 40%;
+    
     margin-top: 35%; 
 }
 
-#education #edulist
+.education #edulist
 {
     width: 50%;
     margin-left: 42%;
@@ -113,15 +110,11 @@ img
     padding-top: 3%;
     padding-right: 4.7%;
 }
-#work h1
+.work h1
 {
-    position: absolute;
-    margin-left: 40%;
     top: 140%;
-    
-    
 }
-#worklist
+.work .list
 {
     margin-left: 42%;
     top: 160.5%;
