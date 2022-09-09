@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.list
+{
+    position: absolute;
+    color: black;
+    font-size: 125%;
+    font-family: 'Playfair Display', serif;
+    border-top: 3px solid black;
+    list-style: none;
+}
+.inline
+{
+    color: black;
+    font-family: 'Playfair Display', serif;
+    background-color: white;
+    z-index: 1;
+    padding: 0.5%; 
+}
+.position
+{
+    
+}
+#box1 
+{
+    position: absolute;
+    height: 30%;
+    width: 99%;
+    background-color: black;
+    color: white;
+    z-index: 0;
+    text-align: center;
+}
+#box1 h2
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 300%;
+    position: absolute;
+    top:20%;
+    left: 55%;
+}
+#line
+{
+    position: absolute;
+    height: 200%;
+    width: 35%;
+    border-right: 3px solid black;
+    background-color: white;
+    z-index: 1;
+
+}
+#sidebox
+{
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    background-color: rgb(88, 88, 88);
+    z-index: 2;
+}
+img
+{
+    position: absolute;
+    top: 5%;
+    height: 16%;
+    width:50%;
+    margin-left:25%;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+#info
+{
+    position: absolute;
+    top: 32%;
+    color: white;
+    width: 100%;
+}
+#info li
+{
+    list-style: none;
+    font-size:32px;
+    font-family: 'Quicksand', sans-serif;
+}
+#info i
+{
+    padding-right: 10%;
+    font-size:32px;
+}
+#profile h1
+{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 19.5%;
+}
+#profile p
+{
+    
+    margin-left: 42%;
+    margin-top: 21.5%;
+    padding-top: 2%;
+}
+#education h1
+{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 35%; 
+}
+
+#education #edulist
+{
+    width: 50%;
+    margin-left: 42%;
+    top: 100%;
+    padding-top: 3%;
+    padding-right: 4.7%;
+}
+#work h1
+{
+    position: absolute;
+    margin-left: 40%;
+    top: 140%;
+    
+    
+}
+#worklist
+{
+    margin-left: 42%;
+    top: 160.5%;
+    padding-top: 3%;
+}
+
+
