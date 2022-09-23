@@ -1,0 +1,106 @@
+
+.header{
+    background-color: black;
+    margin-top: 0;
+    position: fixed;
+    color: white;
+    width: 100vh;
+    z-index: 1;
+    border-bottom: 1px solid white;
+}
+.header h2{
+    margin-left: 15%;
+    font-family: 'Cinzel', serif;
+}
+.side-box{
+    width: 100%;
+    background-color: rgb(141, 141, 141);
+    display: flex;
+    padding-top: 16%;
+    height: 250px;
+    font-family: 'Quicksand', sans-serif;
+}
+.profile-pic{
+    position: relative;
+    height: 80%;
+    width: 80;
+    left:9%;
+    top:5%;
+    padding-right: 20px;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+.info-list{
+    margin-top: 1.5%;
+    margin-left: 5%;
+    position: relative;
+    left:10%;
+    font-size: 20px;
+    list-style: none;
+    color: white;
+    border-left: 1px solid white;
+    padding-right: 20px;
+    padding-top: 20px;
+   
+}
+.info-list li{
+    padding-bottom: 4%; 
+}
+.material-icons{
+    
+color: red; 
+    /* vill förflytta ikonerna en aning nedåt men det skapar problem när de ligger i listan. 
+    Vet du något trix som flyttar dem utan att behöva göra en egen div och flytta dem utanför listan?*/
+}
+
+h1{
+    color: white;
+    position: relative;
+    left: 8%;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    background-color: rgb(141, 141, 141);
+    padding-left: 1%;
+}
+.profile-heading{
+    width: 60px;
+}
+.education-heading{
+    width: 90px;
+}
+.work-heading{
+    width: 140px;
+}
+.border-top{
+    position: relative;
+    border-top: 1px solid black;
+    padding-top: 5%;
+    margin-top: -10px;
+}
+.profile-text{
+    padding-left: 8%;
+    padding-right: 5%;
+    font-family: 'Playfair Display', serif;
+}
+.list{
+    font-family: 'Playfair Display', serif;
+    list-style: none;
+    padding-right: 5%;
+    list-style-type: none;
+   
+}
+.list li{
+    padding-bottom: 1%;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    
+}
+.interests{
+    display: none;
+}
+/* tycker du att jag ska ta bort intressen och skills från mobilvyn? det blir så lång sida om de är med.*/
+.skills{
+    display: none;
+}
+.desktop-br{
+    display: none;
+}
+
