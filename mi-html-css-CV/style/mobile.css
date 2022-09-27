@@ -1,0 +1,113 @@
+
+.header{
+    background-image: linear-gradient(to right, black , rgb(141, 141, 141)30%, black 75%);
+    margin-top: 0;
+    position: fixed;
+    color: white;
+    width: 100vh;
+    z-index: 1;
+    border-bottom: 1px solid white;
+    
+}
+.header h2{
+    margin-left: 18%;
+    font-family: 'Kanit', sans-serif;
+}
+.side-box{
+    width: 100%;
+    background: linear-gradient(rgb(85, 84, 84) 20%,rgb(180, 180, 180), rgb(85, 84, 84));
+    display: flex;
+    padding-top: 16%;
+    height: 250px;
+    font-family: 'Quicksand', sans-serif;
+}
+.profile-pic{
+    position: relative;
+    height: 80%;
+    width: 30%;
+    left:9%;
+    top:5%;
+    padding-right: 20px;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+.info-list{
+    margin-top: 1.5%;
+    margin-left: 5%;
+    position: relative;
+    left:10%;
+    font-size: 20px;
+    list-style: none;
+    color: white;
+    border-left: 1px solid white;
+    padding-right: 20px;
+    padding-top: 20px;
+   
+}
+.info-list li{
+    padding-bottom: 12.5%; 
+    padding-left: 10%;
+}
+.icons{
+    position: absolute;
+    top: 12%;
+    left: 45%;
+    list-style: none;
+    
+}
+.material-icons{
+    color: white;
+    padding-bottom:60%;
+}
+
+h1{
+    color: white;
+    position: relative;
+    left: 8%;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    background-color: rgb(141, 141, 141);
+    padding-left: 1%;
+}
+.profile-heading{
+    width: 60px;
+}
+.education-heading{
+    width: 90px;
+}
+.work-heading{
+    width: 140px;
+}
+.border-top{
+    position: relative;
+    border-top: 1px solid black;
+    padding-top: 5%;
+    margin-top: -10px;
+}
+.profile-text{
+    padding-left: 8%;
+    padding-right: 5%;
+    font-family: 'Playfair Display', serif;
+}
+.list{
+    font-family: 'Playfair Display', serif;
+    list-style: none;
+    padding-right: 5%;
+    list-style-type: none;
+   
+}
+.list li{
+    padding-bottom: 1%;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    
+}
+.interests{
+    display: none;
+}
+/* tycker du att jag ska ta bort intressen och skills från mobilvyn? det blir så lång sida om de är med.*/
+.skills{
+    display: none;
+}
+.desktop-br{
+    display: none;
+}
+
